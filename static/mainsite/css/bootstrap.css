@@ -3886,7 +3886,8 @@ textarea.form-control-lg {
 .navbar-brand {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 45rem;
+  margin-left: 20rem;
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
@@ -4116,13 +4117,15 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #060;
+  font-weight: bolder;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgb(0, 102, 0);
+  font-weight:bold;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
@@ -6732,7 +6735,7 @@ textarea.form-control-lg {
 }
 
 .my-3 {
-  margin-top: 1rem !important;
+  margin-top: 0rem !important;
   margin-bottom: 1rem !important;
 }
 
@@ -7220,7 +7223,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  background-color: #006600 !important;
+  background-color: #fff !important;
 }
 
 .bg-body {
