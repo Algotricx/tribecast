@@ -21,4 +21,7 @@ urlpatterns = [
     path('brand/',include('brand.urls')),
     path('influencer/',include('influencer.urls')),
     path('',include('mainsite.urls')),
+    path('',include('social_django.urls',namespace='social')),
 ]
+
+

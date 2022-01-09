@@ -7,7 +7,7 @@ def index(request):
     context = {}
     return render(request,"mainsite/index.html",context)
 
-def sign_up(request):
+def join_now(request):
     context ={}
     form = UserCreationForm(request.POST or None)
     if request.method == "POST":
